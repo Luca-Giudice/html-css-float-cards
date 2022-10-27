@@ -12,6 +12,11 @@ body{
 }
 
 /*Utilis*/
+img{ 
+    width: 100px;
+    height: 100px;
+    text-align: left;
+}
 
 
 /*H1*/
@@ -21,6 +26,7 @@ h1{
     font-weight: 800px;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 30px;
     
 }
 
@@ -34,14 +40,24 @@ h1{
 
 .text-main{
     text-align: center;
+    margin-bottom: 100px;
 
 }
 
 .card{
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+
+    background-color: black;
 
 }
 
 .column{
-    
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    width: calc(100%/3);
+    padding: 1rem;
+
 }
 
