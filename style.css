@@ -1,0 +1,47 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
+body{
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/*Utilis*/
+
+
+/*H1*/
+h1{
+    color: #ce346a;
+    font-size: 30px;
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/*Main*/
+.container{
+    width: 80%;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    
+}
+
+.text-main{
+    text-align: center;
+
+}
+
+.card{
+
+}
+
+.column{
+    
+}
+
