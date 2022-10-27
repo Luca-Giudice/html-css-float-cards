@@ -32,7 +32,7 @@ h1{
 
 /*Main*/
 .container{
-    width: 80%;
+    width: 75%;
     margin-left: 8rem;
     margin-top: 3rem;
     
@@ -52,7 +52,7 @@ h1{
     color: white;
     font-weight: lighter;
     margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 a{
@@ -72,6 +72,7 @@ img{
     float: left;
     width: 70px;
     height: 70px;
+    margin-right: 0,5rem;
 }
 
 .clearfix{
