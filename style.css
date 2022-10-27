@@ -13,8 +13,8 @@ body{
 
 /*Utilis*/
 img{ 
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     text-align: left;
 }
 
@@ -40,24 +40,43 @@ h1{
 
 .text-main{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 
 }
 
 .card{
-    width: 300px;
-    height: 100px;
-    padding: 30px;
-
+    width: 250px;
+    height: 70px;
     background-color: black;
+    font-size: small;
+    color: white;
+    font-weight: lighter;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
 
+a{
+    text-decoration: none;
+    color:rgb(59, 129, 129);
 }
 
 .column{
-    border: 2px solid rgb(255, 255, 255);
+    border-right: 1rem;
+    border-bottom: 5rem;
     float: left;
-    width: calc(100%/3);
-    padding: 1rem;
+    margin-right:1rem:
 
+}
+
+img{
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+
+.clearfix{
+    content: '';
+    clear: both;
+    display: table;
 }
 
